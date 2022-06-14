@@ -62,8 +62,8 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container-esm">
-                <p class="masthead-subheading">GraphQL is a simple way to</p>
-                <p class="masthead-subheading">connect front and back end.</p>
+                <p class="masthead-subheading"><b class="red">GraphQL</b> is a simple way to</p>
+                <p class="masthead-subheading"><b class="red">connect front and back end.</b></p>
                 <p class="masthead-subheading">
                   <a class="btn btn-tertiary btn-x2 text-uppercase" href="#services">GET STARTED</a>
                   <a class="btn btn-tertiary btn-x2 text-uppercase" href="#services">SOURCE CODE</a>
@@ -72,15 +72,77 @@
             </div>
         </header>
 
+        <section class="page-section">
+            <div class="container-esm">
+                <div class="row text-center">
+                    <div class="col-md-8">
+                        <h4 class="my-3 txt-left"><b>Introduction to GraphQL</b></h4>
+                        <p class="text-muted txt-left bd-left-red fs-7">
+                           Learn about GraphQL, how it works, and how to use it.
+                           Looking for documentation on how to build a GraphQL
+                           service? There are libraries to help you implement
+                           GraphQL in many different languages. For an in-depth
+                           learning experience with practical tutorials, see How
+                           to GraphQL. Check out the free online course, Exploring
+                           GraphQL: A Query Language for APIs.
+                         </p>
+                         <p class="text-muted txt-left fs-7">
+                           GraphQL is a query language for your API, and a server-side
+                           runtime for executing queries using a type system you
+                           define for your data. GraphQL isn't tied to any specific
+                           database or storage engine and is instead backed by
+                           your existing code and data.
+                         </p>
+                         <p class="text-muted txt-left fs-7">
+                           A GraphQL service is created by defining types and
+                           fields on those types, then providing functions for
+                           each field on each type. For example, a GraphQL service
+                           that tells you who the logged in user is (me) as well
+                           as that user's name might look like this:
+                         </p>
+                         <code>
+                           type Query {
+                             me:User
+                            }
+
+                            type User {
+                             id:ID
+                             name:String
+                            }
+                         </code>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="menu-accordion">
+                        <li tabindex="0"><b class="fs-7"> > GET STARTED</b>
+                            <!-- <ul>
+                                <li>Item 1.1</li>
+                            </ul> -->
+                        </li>
+                        <li tabindex="1"><b class="fs-7"> > GUIDES</b>
+                            <!-- <ul>
+                                <li>Item 2.1</li>
+                            </ul> -->
+                        </li>
+                        <li tabindex="2"><b class="fs-7"> > SOURCE CODE</b>
+                            <!-- <ul>
+                                <li>Item 2.1</li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; 2022</div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                        <!-- <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a> -->
                     </div>
                 </div>
             </div>

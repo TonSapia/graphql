@@ -639,7 +639,14 @@ progress {
   padding: 30px;
 }
 
+.txt-left {
+  text-align: left;
+}
 
+.bd-left-red {
+  border-left: 2px solid #D31027;
+  padding-left: 20px;
+}
 
 @media (min-width: 576px) {
   .container-sm, .container, .container-esm {
@@ -678,6 +685,10 @@ progress {
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+  }
+
+  .container-esm {
+    text-align:left;
   }
 }
 @media (min-width: 1400px) {
@@ -7648,6 +7659,18 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
+.fs-8 {
+  font-size: 0.5rem !important;
+}
+
+.fs-9 {
+  font-size: 0.25rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -11806,6 +11829,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: #F9F9F9;
 }
 
+b.red {
+  color: #D31027;
+}
+
 .sbx-twitter {
   display: inline-block;
   position: relative;
@@ -11978,4 +12005,24 @@ section#contact form#contactForm :-ms-input-placeholder {
             transform: none;
     opacity: 1;
   }
+}
+
+.menu-accordion {
+  list-style-type: none;
+  background-color: #F9F9F9;
+  color: #333333;
+  text-align: left;
+  padding: 10px;
+}
+
+.menu-accordion li {
+  margin: 20px;
+}
+
+.menu-accordion li ul {
+    display: none;
+    list-style-type: none;
+}
+.menu-accordion li:focus ul {
+    display: block;
 }
