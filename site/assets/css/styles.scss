@@ -11874,16 +11874,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
-.footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  text-align: center;
-  font-size: 0.9rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #F9F9F9;
-}
-
 b.red {
   color: #D31027;
 }
@@ -12113,4 +12103,34 @@ h4 {
   background-color: #F9F9F9;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+.copyright {
+  width: 8em;
+}
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "roboto-regular", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #F9F9F9;
+  text-align: left;
+}
+
+.foot-col {
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.foot-col img {
+  width: 2em;
+  float: left;
+  margin-right: 10px;
+  margin-left: -40px;
+}
+
+.text-dark {
+  text-decoration: none;
 }
