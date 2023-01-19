@@ -27,6 +27,8 @@ tipue_search:
   include:
     pages: true
     collections: []
+    exclude:
+      files: [search.html]
 
 
 # Exclude from processing.
