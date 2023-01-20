@@ -69,9 +69,12 @@ http://www.tipue.com/search
 
 #tipue_search_content
 {
-     max-width: 750px;
+  max-width: 100%;
 	padding-top: 15px;
 	margin: 0;
+  margin-top: 145px;
+  display: table;
+  text-align: center;
 }
 #tipue_search_results_count
 {

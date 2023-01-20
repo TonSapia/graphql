@@ -12091,8 +12091,13 @@ h4 {
   padding-left: 0px;
   margin-left: 0px;
 }
+
 .menu-accordion li:focus ul {
   display: block;
+}
+
+.menu-accordion li ul li {
+  border-left: 1px solid #FFFFFF;
 }
 
 .page-section .content p:first-of-type {
