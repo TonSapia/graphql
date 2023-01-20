@@ -79,7 +79,7 @@ http://www.tipue.com/search
 }
 #tipue_search_results_count
 {
-	color: #fff;
+	color: #000;
 }
 #tipue_search_warning
 {
@@ -97,7 +97,7 @@ http://www.tipue.com/search
 }
 .tipue_search_content_title
 {
-     color: #fff;
+     color: #000;
 	margin-top: 21px;
 }
 .tipue_search_content_title a
@@ -125,7 +125,7 @@ http://www.tipue.com/search
 }
 .tipue_search_content_text
 {
-	   color: #fff;
+	   color: #000;
      word-wrap: break-word;
      hyphens: auto;
      margin-top: 5px;
