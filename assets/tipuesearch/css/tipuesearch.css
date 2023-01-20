@@ -52,6 +52,8 @@ http://www.tipue.com/search
 	  -webkit-appearance: none;
 	  outline: 0;
 	  margin: 0;
+    background: url('assets/tipuesearch/search.png') no-repeat scroll 7px 7px;
+    padding-left:30px;
 }
 #tipue_search_input:focus, #tipue_search_input:active {
   border-color: #D31027;
