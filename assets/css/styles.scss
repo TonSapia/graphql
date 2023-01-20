@@ -4031,7 +4031,7 @@ textarea.form-control-lg {
 .nav-link, .menu-accordion > li > a {
   display: block;
   padding: 0.5rem 1rem;
-  color: #333333;
+  color: #FFFFFF;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4044,7 +4044,7 @@ textarea.form-control-lg {
   color: #D31027;
 }
 .nav-link.disabled {
-  color: #6c757d;
+  color: #FFFFFF;
   pointer-events: none;
   cursor: default;
 }
@@ -12064,8 +12064,8 @@ h4 {
 
 .menu-accordion {
   list-style-type: none;
-  background-color: #F9F9F9;
-  color: #333333;
+  background-color: #1C1C1C;
+  color: #FFFFFF;
   text-align: left;
   padding: 10px;
 }
