@@ -509,6 +509,14 @@ progress {
   }
 
 }
+@media (max-width: 575px) {
+  .masthead-subheading {
+    font-size: 1rem;
+  }
+  .masthead-subheading .btn-tertiary {
+    font-size: 0.75rem;
+  }
+}
 @media (min-width: 768px) {
   .container-md, .container-sm, .container-esm, .container {
     max-width: 720px;
