@@ -507,11 +507,6 @@ progress {
   .container-sm, .container, .container-esm {
     max-width: 540px;
   }
-
-  .masthead-subheading {
-    text-align: center;
-  }
-
 }
 @media (max-width: 575px) {
   .masthead-subheading {
@@ -520,6 +515,11 @@ progress {
   }
   .masthead-subheading .btn-tertiary {
     font-size: 0.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .masthead-subheading {
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
