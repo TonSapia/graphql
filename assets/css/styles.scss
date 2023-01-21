@@ -512,6 +512,7 @@ progress {
 @media (max-width: 575px) {
   .masthead-subheading {
     font-size: 1rem!important;
+    text-align: center;
   }
   .masthead-subheading .btn-tertiary {
     font-size: 0.75rem;
@@ -2506,7 +2507,7 @@ p i {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 1.5rem;
   text-align: center;
   color: #FFFFFF;
   /* background-image: url("../assets/img/header-bg.jpg"); */
@@ -2532,7 +2533,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
+    padding-top: 7rem;
     padding-bottom: .5rem;
   }
   header.masthead .masthead-subheading {
